@@ -5,7 +5,7 @@ import 'package:station_service_mobile/views/static/splashscreen.dart';
 void main() {
   runApp(
     const GetMaterialApp(
-      
+      debugShowCheckedModeBanner: false,
       home: SplashScreen(),
     ),
   );
