@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 abstract class Const {
-  static const String appName = 'Station Service Mobile';
+  static const String appName = "TAPA Business";
   static const String appVersion = '1.0.0';
-  static const Color primaryColor = Color.fromRGBO(192, 57, 43, 1);
-  static const Color secondaryColor = Color.fromRGBO(127, 140, 141, 1);
-  static const primaryFonts = "";
-  static const baseUrl = "https://station-api.silam.ci/api/";
+  static const Color primaryColor = Color(0xFFF5A623);
+  static const Color secondaryColor = Color(0xFF778ca3);
+  static var defaultFont = GoogleFonts.montserrat();
+
+  static var onlineUrl = "https://business.tapa.ci/api";
+  static var localUrl = "http://192.168.1.118:8000/api";
 }
